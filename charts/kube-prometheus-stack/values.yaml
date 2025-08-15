@@ -2437,7 +2437,7 @@ kube-state-metrics:
   releaseLabel: true
 
   ## Enable scraping via kubernetes-service-endpoints
-  ## Disabled by default as we service monitor is enabled below
+  ## Disabled by default as service monitor is enabled below
   ##
   prometheusScrape: false
 
